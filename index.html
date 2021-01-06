@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Tienda de ropa</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header class="l-header">
+        <nav class="nav grid">
+            <div>
+                <a href="#logo" class="nav_logo">Tienda de ropa</a>
+            </div>
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link active">Inicio</a></li>
+                    <li class="nav_item"><a href="#featured" class="nav_link">Destacado</a></li>
+                    <li class="nav_item"><a href="#new" class="nav_link">Nuevo</a></li>
+                    <li class="nav_item"><a href="#suscribed" class="nav_link">Suscribirse</a></li>
+                </ul>
+            </div>
+            <div>
+                <i class='bx bxs-cart-add nav_car'></i>
+                <i class='bx bx-menu nav_toggle' id="nav-toggle"></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">
+        <section class="home" id="home">
+            <div class="home_container grid">
+                <div class="home_data">
+                    <h1 class="home_title">Mira<br><span>lo más destacado</span></h1>
+                    <a href="#featured" class="button">Ver más</a>
+                </div>
+                <img src="./assets/images/01.jpg" alt="" class="home_img">
+            </div>
+        </section>
+        <section class="collections section">
+            <div class="collections_container grid">
+                <div class="collections_box">
+                    <img src="./assets/images/02.jpg" alt="" class="collections_img">
+                    <div class="collections_data">
+                        <h2 class="collections_title"><span class="collections_subtitle">Ropa</span><br>Hombre</h2>
+                        <a href="#" class="collections_view">Ver Colección</a>
+                    </div>
+                </div>
+
+                <div class="collections_box">
+                    <img src="./assets/images/03.jpg" alt="" class="collections_img">
+                    <div class="collections_data">
+                        <h2 class="collections_title"><span class="collections_subtitle">Ropa</span><br>Mujer</h2>
+                        <a href="#" class="collections_view">Ver Colección</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="featured section" id="featured">
+            <h2 class="section-title">Productos nuevos</h2>
+            <a href="#" class="section-all">Ver más</a>
+
+            <div class="featured_container grid">
+                <div class="featured_products">
+                    <div class="featured_box">
+                        <div class="featured_new">Nuevo</div>
+                        <img src="./assets/images/P01.jpg" alt="" class="featured_img">
+                    </div>
+
+                    <div class="featured_data">
+                        <h3 class="featured_name">Producto 1</h3>
+                        <span class="featured_price">$130.000</span>
+                    </div>
+                </div>
+
+                <div class="featured_products">
+                    <div class="featured_box">
+                        <div class="featured_new">Nuevo</div>
+                        <img src="./assets/images/P02.jpg" alt="" class="featured_img">
+                    </div>
+
+                    <div class="featured_data">
+                        <h3 class="featured_name">Producto 2</h3>
+                        <span class="featured_price">$30.000</span>
+                    </div>
+                </div>
+
+                <div class="featured_products">
+                    <div class="featured_box">
+                        <div class="featured_new">Nuevo</div>
+                        <img src="./assets/images/P03.jpg" alt="" class="featured_img">
+                    </div>
+
+                    <div class="featured_data">
+                        <h3 class="featured_name">Producto 3</h3>
+                        <span class="featured_price">$60.000</span>
+                    </div>
+                </div>
+
+                <div class="featured_products">
+                    <div class="featured_box">
+                        <div class="featured_new">Nuevo</div>
+                        <img src="./assets/images/P04.jpg" alt="" class="featured_img">
+                    </div>
+
+                    <div class="featured_data">
+                        <h3 class="featured_name">Producto 4</h3>
+                        <span class="featured_price">$230.000</span>
+                    </div>
+                </div>
+
+                <div class="featured_products">
+                    <div class="featured_box">
+                        <div class="featured_new">Nuevo</div>
+                        <img src="./assets/images/P05.png" alt="" class="featured_img">
+                    </div>
+
+                    <div class="featured_data">
+                        <h3 class="featured_name">Producto 5</h3>
+                        <span class="featured_price">$30.000</span>
+                    </div>
+                </div>
+
+                <div class="featured_products">
+                    <div class="featured_box">
+                        <div class="featured_new">Nuevo</div>
+                        <img src="./assets/images/P06.jpg" alt="" class="featured_img">
+                    </div>
+
+                    <div class="featured_data">
+                        <h3 class="featured_name">Producto 6</h3>
+                        <span class="featured_price">$110.000</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="offer section">
+            <div class="offer_bg">
+                <div class="offer_data">
+                    <h2 class="offer_title">Oferta especial</h2>
+                    <p class="offer_description">Ofertas especiales, descuentos en ropa para mujer solo por esta semana
+                    </p>
+                    <a href="#" class="button">Comprar ahora</a>
+                </div>
+            </div>
+        </section>
+        <section class="new section" id="new">
+            <h2 class="section-title">Prendas Nuevas</h2>
+            <a href="#" class="section-all">Ver todo</a>
+            <div class="new_container grid">
+                <!--PN01-->
+                <div class="new_box">
+                    <img src="./assets/images/PN01.jpg" alt="" class="new_img">
+                    <div class="new_link">
+                        <a href="#" class="button">Ver producto</a>
+                    </div>
+                </div>
+                <!--PN02-->
+                <div class="new_box">
+                    <img src="./assets/images/PN02.jpg" alt="" class="new_img">
+                    <div class="new_link">
+                        <a href="#" class="button">Ver producto</a>
+                    </div>
+                </div>
+                <!--PN03-->
+                <div class="new_box">
+                    <img src="./assets/images/PN03.jpg" alt="" class="new_img">
+                    <div class="new_link">
+                        <a href="#" class="button">Ver producto</a>
+                    </div>
+                </div>
+                <!--PN04-->
+                <div class="new_box">
+                    <img src="./assets/images/PN04.jpg" alt="" class="new_img">
+                    <div class="new_link">
+                        <a href="#" class="button">Ver producto</a>
+                    </div>
+                </div>
+                <!--PN05-->
+                <div class="new_box">
+                    <img src="./assets/images/PN05.jpg" alt="" class="new_img">
+                    <div class="new_link">
+                        <a href="#" class="button">Ver producto</a>
+                    </div>
+                </div>
+                <!--PN06-->
+                <div class="new_box">
+                    <img src="./assets/images/PN06.jpg" alt="" class="new_img">
+                    <div class="new_link">
+                        <a href="#" class="button">Ver producto</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter section" id="suscribed">
+            <div class="newsletter_container grid">
+                <div class="newsletter_suscribe">
+                    <h2 class="section-title">Boletín de noticias</h2>
+                    <p class="newsletter_description">Recibe nuestros nuevos productos y promociones!!</p>
+
+                    <form action="POST" class="newletter_form">
+                        <input type="text" class="newsletter_input" placeholder="Ingresa tu correo electronico">
+                        <a href="#" class="button">Suscribirse</a>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer section">
+        <div class="footer_container grid">
+            <div class="footer_box">
+                <h3 class="footer_title">Tienda de ropa</h3>
+            </div>
+            <div class="footer_box">
+                <h3 class="footer_title">Explorar</h3>
+                <ul>
+                    <li><a href="#" class="footer_link">Inicio</a></li>
+                    <li><a href="#" class="footer_link">Destacado</a></li>
+                    <li><a href="#" class="footer_link">Nuevo</a></li>
+                    <li><a href="#" class="footer_link">Suscribirse</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_box">
+                <h3 class="footer_title">Nuestros Servicios</h3>
+                <ul>
+                    <li><a href="#" class="footer_link">Precios</a></li>
+                    <li><a href="#" class="footer_link">Envio gratis</a></li>
+                    <li><a href="#" class="footer_link">Tarjetas de regalo</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_box">
+                <h3 class="footer_title">Nuestras redes sociales</h3>
+                <a href="#" class="footer_social"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#" class="footer_social"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="footer_social"><i class='bx bxl-twitter'></i></a>
+                <a href="#" class="footer_social"><i class='bx bxl-pinterest'></i></i></a>
+            </div>
+        </div>
+        <p class="footer_copy">&#169; 2021 todos los derechos reservados <br>devansystems</p>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
